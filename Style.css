@@ -1,0 +1,175 @@
+
+
+#cabecalho{
+    background-color: #f7b600;
+    text-align: center;
+    width: 100%;
+}
+
+#cabecalho a:link, #cabecalho a:visited {
+    color: #fff;
+    padding: 8px 12px;
+}
+
+#cabecalho a:hover{
+    color: #f7b600;
+    background-color: white;
+    text-decoration: none;
+}
+
+#logo, #menu{
+    padding: 10px;
+
+}
+
+#principal {
+    width: 940px;
+    padding: 10px;
+    margin: 0px auto;
+}
+
+#area-postagens, #menu-lateral {
+    padding: 10px;
+}
+
+#area-postagens{
+    background-color: white;
+    width: 640px;
+    float: left;
+}
+#area-postagens img{
+    width: 640px;
+}
+
+#menu-lateral{
+    background-color: white;
+    width: 240px;
+    float: right;
+}
+
+#postagem-lateral-superior{
+    background-color: #dbdbdb;
+    width: 240px;
+}
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #ccc;
+}
+
+#menuinferiorlateral{ 
+    background-color: white;
+    width: 260px;
+    float: right;
+    margin-top: 20px;
+}
+
+#menuinferiorlateral a:link,#menuinferiorlateral a:visited {
+    display: block;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin: 10px;
+    /*width: 150px;*/
+}
+
+#menuinferiorlateral a:hover {
+    background-color: #f7b600;
+    color: white;
+}
+
+
+
+#postagem-lateral-inferior{
+    background-color: #dbdbdb;
+    width: 240px;
+    margin: 10px;
+}
+
+.chat{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    
+}
+.clear {
+    clear: both;
+}
+
+.branco {
+    color: white;
+}
+
+.data-postagem {
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    display: block;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.divisao{
+    border-top: 1px solid #f4f4f4;
+    display:block;
+}
+.titulo{
+    font-family: 'Times New Roman', Times, serif;
+}
+.subtitulo{
+    background-color: rgb(243, 243, 243);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.a{
+    display: block;
+    font-size: 1em;
+}
+
+.line {
+    border-top: 1px solid black;
+    margin: 5px 0px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-size: 1.0em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #e6e6e6;
+}
+
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+h2{
+    color: #f7b600;
+}
+
+h3{
+    font-size:1.5em;
+}
+
+img{
+    margin-left: -1px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+a:link, a:visited {
+    color: #f7b600;
+    margin-top: 10px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
